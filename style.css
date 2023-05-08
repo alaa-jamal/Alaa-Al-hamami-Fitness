@@ -1,0 +1,772 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    /* height:3000px; */
+    font-family: 'Cairo', sans-serif;
+}
+
+
+
+/********************************************************** Start header *****************************************************************/
+
+
+.header-container {
+    height: 16vh;
+
+}
+
+.header-top {
+    height: 6vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.header-top-left {
+    display: flex;
+    gap: 3vw;
+    /* font style font variant  font-weight  font-size/line-height  font-family*/
+    font: normal normal lighter 1.2vw 'Cairo', sans-serif;
+
+}
+
+.SignUp {
+
+    width: 17vw;
+    border: 1px solid #5B945B;
+    border-radius: 5px;
+    background-color: white;
+    font: normal normal lighter 1.2vw 'Cairo', sans-serif;
+    padding: 0.1vw;
+
+}
+
+.header-bottom {
+    height: 10vh;
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.header-bottom-left img {
+    width: 12vw;
+}
+
+.header-bottom-right {
+    display: flex;
+    gap: 2vw;
+    font: normal normal lighter 1.2vw 'Cairo', sans-serif;
+    color: white;
+
+}
+
+#home {
+    border-bottom: 1px solid #5B945B;
+}
+
+
+/*****************************************************  Start Hero Section **********************************************************/
+
+
+.hero-container {
+    height: 70vh;
+    background-image: url(images/hero.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.hero-title {
+    color: white;
+    font: normal normal lighter 3vw 'Cairo', sans-serif;
+    line-height: 1;
+
+
+}
+
+.hero-title-span {
+    color: #5B945B;
+}
+
+.hero-content {
+    color: #c2bcbc;
+    font: normal normal lighter 1.3vw 'Cairo', sans-serif;
+}
+
+.hero-btn {
+    width: 17vw;
+    background-color: #5B945B;
+    color: white;
+    padding: 1vw;
+    border: 1px solid #5B945B;
+    border-radius: 10px;
+    letter-spacing: 0.1vw;
+    margin-top: 2vw;
+
+
+}
+
+
+
+/************************************************** start Features  section*********************************************************************/
+
+
+.features-container {
+    height: 60vh;
+    margin-top: 5vw;
+}
+
+.features-title {
+
+    height: 18vh;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0.4vw;
+    font: normal normal lighter 2.5vw 'Cairo', sans-serif;
+    position: relative;
+
+
+}
+
+.features-title::after {
+    content: "";
+    width: 10vw;
+    height: 0.3vh;
+    background-color: #5B945B;
+    position: absolute;
+    left: 44.1vw;
+    bottom: 10vh;
+
+}
+
+.features-content {
+    display: flex;
+    justify-content: space-around;
+}
+
+.features-content-cards {
+    width: 28vw;
+    height: 35vh;
+    border: 1px solid #ccc;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+
+
+
+}
+
+.features-content-cards img {
+    width: 5vw;
+}
+
+.features-content-cards-details {
+    text-align: center;
+    line-height: 4vh;
+    padding: 2vw
+}
+
+.features-content-cards-details p {
+    line-height: 3vh;
+    color: #706c6c;
+    font: normal normal lighter 1.1vw 'Cairo', sans-serif;
+
+}
+
+
+
+
+/********************************************************** start How it Works Section ***************************************************/
+
+
+.Works-container {
+    height: 75vh;
+    background-color: rgba(217, 217, 217, 0.3);
+
+}
+
+.Works-title {
+
+    height: 13vh;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0.4vw;
+    font: normal normal lighter 2.5vw 'Cairo', sans-serif;
+    padding: 5vw;
+    position: relative;
+
+
+}
+
+.Works-title::after {
+    content: "";
+    width: 16vw;
+    height: 0.3vh;
+    background-color: #5B945B;
+    position: absolute;
+    left: 42.1vw;
+    bottom: 0.8vh;
+}
+
+.Works-content {
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.Works-content-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+
+}
+
+.Works-content-left p {
+    font: normal normal lighter 1.5vw 'Cairo', sans-serif;
+    line-height: 9vh;
+
+}
+
+.Works-content-left span {
+    display: inline-block;
+    width: 3vw;
+    background-color: #5B945B;
+    color: #FFFFFF;
+    border-radius: 50%;
+    text-align: center;
+    padding: 0.9vw;
+    margin-right: 3vw;
+    font: normal normal lighter 1vw 'Cairo', sans-serif;
+
+}
+
+.Works-content-right img {
+    width: 20vw;
+
+}
+
+
+
+
+
+
+/************************************************************** Start testmoinal section ************************************************/
+
+
+
+.testominal-container {
+
+    height: 100vh;
+
+}
+
+.testominal-title {
+    height: 38vh;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0.4vw;
+    font: normal normal lighter 2.5vw 'Cairo', sans-serif;
+    padding: 5vw;
+    position: relative;
+
+}
+
+.testominal-title::after {
+    content: "";
+    width: 16vw;
+    height: 0.3vh;
+    background-color: #5B945B;
+    position: absolute;
+    left: 42.1vw;
+    bottom: 18vh;
+}
+
+.testominal-content {
+    display: flex;
+    justify-content: space-around;
+}
+
+.testominal-content-cards {
+    width: 27vw;
+    height: 45vh;
+    border: 1px solid #5b945bb6;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    position: relative;
+
+
+
+
+
+}
+
+.testominal-content-cards img {
+    width: 8vw;
+    position: absolute;
+    left: 9.5vw;
+    top: -11vh;
+    border: 2px solid #FFFFFF;
+    border-radius: 50%;
+
+
+
+}
+
+.testominal-content-cards h4 {
+    padding: 1vw;
+}
+
+.testominal-content-cards p {
+    text-align: center;
+    padding: 1.2vw;
+    color: #777;
+    font: normal normal lighter 1vw 'Cairo', sans-serif;
+
+
+}
+
+
+/********************************************************* Start Call Section *************************************************************/
+
+
+.call-container {
+    height: 54vh;
+    background-color: rgba(217, 217, 217, 0.30);
+
+}
+
+
+.call-content {
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+
+.call-content-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: 6vh;
+
+}
+
+.call-content-left p {
+    text-align: center;
+    font: normal normal lighter 1.3vw 'Cairo', sans-serif;
+    color: #777;
+}
+
+
+.call-btn {
+
+    width: 17vw;
+    background-color: #5B945B;
+    color: white;
+    padding: 1vw;
+    border: 1px solid #5B945B;
+    border-radius: 10px;
+    letter-spacing: 0.1vw;
+    margin-top: 2vw;
+
+}
+
+.call-content-right img {
+    width: 25vw;
+}
+
+
+
+
+/********************************************************** Start Footer Section ***********************************************************/
+
+.footer-container {
+    background-color: black;
+    height: 40vh;
+
+}
+
+.footer-container-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1vw
+}
+
+.footer-container-content-box h5 {
+    padding: 1.7vw;
+    text-align: center;
+    color: white;
+
+}
+
+.Quik-links {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.Quik-links ul {
+    list-style-type: none;
+
+
+
+}
+
+.Quik-links ul li a {
+    color: white;
+    text-decoration: none;
+    font: normal normal lighter 1.2vw 'cario', serif;
+
+
+}
+
+.contact-us {
+    color: white;
+    font: normal normal lighter 1.2vw 'cario', serif;
+    line-height: 2.5;
+    text-align: center;
+}
+
+.contact-us-socialmedia i {
+    text-align: center;
+    padding: 1vw;
+
+}
+
+.footer-container .copyright {
+    color: white;
+    text-align: center;
+    padding-top: 0.8vw;
+    font: normal normal lighter 1.3vw'cario', serif;
+}
+
+
+/* ******************************************** Media Query ******************************************************/
+
+/* Small Screen */
+
+@media (max-width : 767px) {
+    .header-bottom {
+        flex-direction: column;
+
+    }
+
+    .hero-container {
+        height: 33vh;
+    }
+
+    .hero-title {
+        font: normal normal lighter 2vw 'Cairo', sans-serif;
+    }
+
+    .hero-content {
+        font: normal normal lighter 1vw 'Cairo', sans-serif;
+    }
+
+    .hero-btn {
+        width: 33vw;
+        font: normal normal lighter 1vw 'Cairo', sans-serif;
+    }
+
+    .features-container {
+        height: 94vh;
+
+    }
+
+    .features-title {
+        height: 14vh;
+
+    }
+
+    .features-title::after{
+        left: 45.1vw;
+        bottom: 9vh;
+    }
+
+    .features-content {
+
+        flex-direction: column;
+        gap: 5vh;
+        align-items: center;
+
+    }
+
+    .features-content-cards {
+        width: 68%;
+        height: 20vh;
+    }
+
+    .Works-container {
+        height: 33vh;
+
+    }
+
+    .works-title {
+        height: 11vh;
+
+    }
+
+    .Works-title::after {
+        bottom: 2.5vh;
+    }
+
+    .Works-content {
+        justify-content: center;
+    }
+
+    .Works-content-left p {
+        line-height: 5vh;
+
+
+    }
+
+    .Works-content-left span {
+        padding: 0.2vw;
+
+    }
+
+    .Works-content-right img {
+        display: none;
+    }
+
+    .testominal-container {
+        height: 160vh;
+    }
+
+    .testominal-title {
+        height: 21vh;
+    }
+
+    .testominal-title::after {
+        left: 42%;
+        bottom: 11vh;
+
+
+    }
+
+    .testominal-content {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 12vh;
+    }
+
+    .testominal-content-cards {
+        width: 60%;
+        height: 34vh;
+
+    }
+
+    .testominal-content-cards img {
+        width: 13vw;
+        left: 39%;
+        top: -8vh;
+
+
+    }
+
+    .call-container {
+        height: 33vh;
+    }
+
+    .call-content {
+        justify-content: center;
+
+
+    }
+
+    .call-content-left {
+        padding: 9vw;
+    }
+
+    .call-title {
+        font: normal normal lighter 3vw 'Cairo', sans-serif;
+    }
+
+
+    .call-btn {
+        width: 25vw;
+        font: normal normal lighter 1vw 'Cairo', sans-serif;
+
+    }
+
+    .call-content-right img {
+        display: none;
+    }
+
+    .footer-container {
+        height: 55vh;
+    }
+
+    .footer-container-content {
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+
+    .contact-us-socialmedia  {
+        text-align: center;
+        padding: 1vw;
+    
+    }
+
+    .footer-container-content-box img {
+        width: 20vw;
+
+    }
+
+}
+
+/* Meduim screen */
+
+@media (min-width : 767px) and (max-width: 991px) {
+    .hero-container {
+        height: 50vh;
+
+    }
+
+    .hero-title {
+        font: normal normal lighter 3vw 'Cairo', sans-serif;
+
+    }
+
+    .hero-content {
+        font: normal normal lighter 2vw 'Cairo', sans-serif;
+
+    }
+
+    .hero-btn {
+        width: 17vw;
+
+    }
+
+    .features-container {
+        height: 134vh;
+
+    }
+
+    .features-title {
+        height: 15vh;
+
+    }
+
+    .features-title::after{
+        left: 45.1vw;
+        bottom: 9vh;
+    }
+
+
+    .features-content {
+        display: flex;
+        flex-direction: column;
+        gap: 2vh;
+        align-items: center;
+
+    }
+
+    .features-content-cards {
+        width: 49%;
+    }
+
+    .Works-container {
+        height: 44vh;
+
+    }
+
+    .works-title {
+        height: 13vh;
+
+    }
+
+    .Works-content {
+        justify-content: center;
+    }
+
+    .Works-content-left p {
+        line-height: 8vh;
+
+
+    }
+
+    .Works-content-right img {
+        display: none;
+    }
+
+    .testominal-container {
+        height: 155vh;
+    }
+
+    .testominal-title {
+        height: 30vh;
+
+    }
+
+    .testominal-title::after {
+        position: absolute;
+        left: 41%;
+        bottom: 17vh;
+
+
+    }
+
+    .testominal-content {
+
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 12vh;
+    }
+
+    .testominal-content-cards {
+        width: 59%;
+        height: 30vh;
+
+    }
+
+    .testominal-content-cards img {
+        width: 9vw;
+        left: 42%;
+        top: -8vh;
+    }
+
+    .call-container {
+        height: 32vh;
+    }
+
+    .call-content {
+        justify-content: center;
+    }
+
+    .call-content-left {
+        padding: 6vw;
+    }
+
+    .call-content-right img {
+        display: none;
+    }
+
+    .footer-container {
+        height: 32vh;
+
+    }
+
+
+}
